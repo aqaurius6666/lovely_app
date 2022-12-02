@@ -21,7 +21,7 @@ jobs:
         with:
           channel: 'stable' # or: 'beta', 'dev' or 'master'
           cache: true
-          flutter-version: '2.10.1'
+          flutter-version: '2.10.5'
       
       - name: Get dependencies
         run: flutter pub get
